@@ -1,4 +1,8 @@
 <?php
+
+$x=0;
+$y=0;
+
 function compter($x)
 {
     while($x<=10)
@@ -8,6 +12,7 @@ function compter($x)
 }
 }
 compter($x);
+
 
 function compter_for($y)
 {

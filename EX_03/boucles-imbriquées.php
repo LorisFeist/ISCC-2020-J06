@@ -1,13 +1,26 @@
 <?php
 
-function clock($heure, $minutes, $secondes)
+$heures= 0;
+$minutes= 0;
+
+function clock($heure, $minutes)
 {
-    for($secondes=0; $secondes<=59; $secondes=$secondes + 1)
-    $compteur = $compteur + 1;
+    for($minutes=00; $minutes<=59; $minutes=$minutes + 1)
+    $minutes = $minutes + 1;
+    echo '00:'.$minutes.'<br>';
+{
+    if ($minutes > 59);
+    $heures = $heures +1; 
+    echo ''.$heures.':'.$minutes.'<br>';
+    
+    elseif (!$heures > 23 )
+    $heures = 0;  
+    echo "<p>00:00</p>";
+}
+}
+return;
+}
 
-    echo "<p> 00:0$compteur</p>";
-
-    if ($secondes >= 59 )
-    $compteur = 0 
-    echo "<p> 0" 
+clock((3600))
+    
 ?>

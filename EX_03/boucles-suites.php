@@ -21,4 +21,4 @@ function compter_dizaine($maximum)
     return;
 }
 
-compter_dizaine(100);
+compter_dizaine(99);
